@@ -1,7 +1,59 @@
-.navbar-brand {
-    color: #fff;
+body {
+    background-image: url('../img/fon.png');
+    background-size: cover;
+    background-repeat: round no-repeat;
+    background-attachment: scroll;
 }
-.navbar navbar-inverse {
-   background-image: linear-gradient(to bottom,#fff 0,#fff 100%);
+.navbar-inverse {
+    clear: both;
+    background-image: linear-gradient(to bottom,#a39e92 0,#a39e92 100%);
+    border-color: #a39e92;
+    border-radius: 3px;
+    font-family: 'Pacifico', cursive;
+    margin-top: 50px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+    font-size: large; 
+}
+.dropdown {
+    text-transform: uppercase;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.navbar-inverse .navbar-nav>li>a {
+    font-size: 1.2em;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.open>a {
+    background-image: linear-gradient(to bottom,#a39e92 0,#a39e92 100%);
+    border-color: #a39e92;
+}
+.dropdown-menu>li>a {
+    font-size: small;
+}
+.dropdown-menu>li>a:hover {
+        background-image: linear-gradient(to bottom,#a39e92 0,#a39e92 100%);
+    color: #fff;
+    background-color: #a39e92;
+}
+.container1 {
+    margin-left: 20%;
+    margin-top: 20px;
+    justify-content: center;
+}
+.nav>li>a {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.pull-left {
+    margin: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.pull-left a {
+    text-align: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     
 }
